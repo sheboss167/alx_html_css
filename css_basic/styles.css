@@ -33,3 +33,64 @@ footer {
   padding: 1rem;
   background-color: #f0f0f0;
 }
+/* General styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+}
+
+/* Header navigation */
+header {
+  background-color: #222;
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  align-items: center;
+}
+
+header li {
+  margin-right: 1rem;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+/* Logo style (bigger character) */
+.logo {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Article & Aside customization */
+article {
+  background: #fff;
+  padding: 1rem;
+  border-right: 2px solid #eee;
+}
+
+aside {
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 0.75rem;
+  background: #222;
+  color: white;
+}
