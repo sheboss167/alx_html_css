@@ -1,0 +1,108 @@
+/* Reset default browser padding/margin */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Page one */
+.page1 {
+    background-image: url("images/headphones_hero_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Makes it fill the screen */
+    
+    
+}
+
+
+
+/* Style the header container */
+header{
+    display:flex;                     /* Places logo and nav side by side */
+    justify-content: space-between;  /* Pushes them to opposite ends*/
+    align-items: center;            /* Centers them vertically*/
+    margin: 0;            /* Space inside the header*/
+    border-bottom: 1px solid #ddd; /*Subtle line under the header*/
+}
+
+/*Logo container (image + text) */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 100px; /*Space between logo and text */
+}
+
+/* Logo image */
+.logo{
+    height: 50px;
+    width: auto;
+    margin-left: 50px;
+}
+
+/*Website title next to logo */
+.logo-container h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Navigation styles */
+.Navigation{
+    margin-right: 50px;
+}
+.Navigation ul{
+    list-style: none;   /*Removes bullet points */
+    display: flex;      /* Places links side by side */
+    gap: 30px;         /*Spacing between links */
+}
+
+/*Each link */
+.Navigation ul li a {
+    text-decoration: none;
+    color:#333;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.Navigation ul li a:hover {
+    color: #ff6600; /* Highlight color when hovered */
+}
+
+.paragraph1{
+    justify-content: center;
+}
+
+.content1{
+    margin-top: 200px;
+    margin-left: 70px;
+    color: #ddd;
+   
+}
+
+.paragraph1{
+ flex-direction: column;
+ display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    background-color: #ff0019;
+    border-radius: 50px;
+    outline: none;
+    font-size: small;
+    color: #ddd;
+    
+}
+.lparagraph{
+    text-align: center;
+}
+
+.smparagraph{
+    margin-left: 200px;
+}
